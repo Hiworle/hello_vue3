@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {reactive} from "vue";
 import type {IPerson} from "@/tppes";
-import Person from "@/components/Person.vue";
+import Person from "@/pages/Person.vue";
 
 let personList = reactive<IPerson[]>(
     [

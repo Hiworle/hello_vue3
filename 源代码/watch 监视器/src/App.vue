@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import Case1 from "@/components/Case1.vue";
-import Case2 from "@/components/Case2.vue";
-import Case3 from "@/components/Case3.vue";
-import Case4 from "@/components/Case4.vue";
-import Case5 from "@/components/Case5.vue";
+import Case1 from "@/pages/Case1.vue";
+import Case2 from "@/pages/Case2.vue";
+import Case3 from "@/pages/Case3.vue";
+import Case4 from "@/pages/Case4.vue";
+import Case5 from "@/pages/Case5.vue";
 </script>
 
 <template>

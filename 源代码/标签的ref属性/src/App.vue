@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Person from "@/components/Person.vue";
+import Person from "@/pages/Person.vue";
 import {ref} from "vue";
 
 // 声明一个 ref 用于存储该元素的引用
