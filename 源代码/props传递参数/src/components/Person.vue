@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-// 接收 props
+// 接收 01props
 import type {IPerson} from "@/tppes";
 
 // 「不推荐」不限制类型的做法
@@ -27,7 +27,7 @@ console.log(x);
 <template>
 
   <div class="person">
-    <!--  由 props 接收的参数，可以像普通变量那样使用，这里的效果等同于 x.a  -->
+    <!--  由 01props 接收的参数，可以像普通变量那样使用，这里的效果等同于 x.a  -->
     <h2>{{ a }}</h2>
     <ul>
       <li v-for="item in list" :key="item.id">
